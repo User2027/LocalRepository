@@ -1,0 +1,82 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 450px;
+    height: 300px;
+    font-family: "Arial", sans-serif;
+    font-size: 12px;
+    border: 1px solid black;
+}
+
+.gallery {
+    padding-top: 10px;
+    text-align: center;
+}
+
+.gallery .item {
+    display: inline-block;
+    width: 125px;
+    margin-left: 22px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.item:nth-child(1) {
+    margin-left: 0;
+}
+
+.gallery .title {
+    margin-bottom: 5px;
+    line-height: 14px;
+}
+
+.gallery .frame {
+    background: #ecf0f1;
+    border: 1.5px solid black;
+}
+
+.gallery .image {
+    height: 70px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    border-top: 1.5px solid black;
+    border-bottom: 1.5px solid black;
+    
+}
+
+.gallery .image-1 {
+    background-color: #2ecc71;
+    background-image: url("/assets/course13/cat_box.png");
+}
+
+.gallery .image-2 {
+    background-color: #3498db;
+    background-image: url("/assets/course13/cat_fish.png");
+}
+
+.gallery .image-3 {
+    background-color: #f1c40f;
+    background-image: url("/assets/course13/cat_purr.png");
+}
+
+.gallery .image-4 {
+    background-color: #e67e22;
+    background-image: url("/assets/course13/cat_walk.png");
+}
+
+.gallery .image-5 {
+    background-color: #e74c3c;
+    background-image: url("/assets/course13/cat_drunk.png");
+}
+
+.gallery .date {
+    padding: 5px;
+    font-style: italic;
+    font-size: 11px;
+    color: #666666;
+}
